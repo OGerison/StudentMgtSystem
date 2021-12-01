@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayoutUsers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="5dp"
+    android:orientation="horizontal">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="User "
+            android:padding="10dp"/>
+        <TextView
+            android:text="RegNo "
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Name " />
+        <TextView
+            android:text="Email Address"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Course Unit"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textStyle="bold" />
+
+    </TableRow>
+</TableLayout>

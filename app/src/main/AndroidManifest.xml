@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.otimstudentsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Otimstudentsystem">
+        <activity android:name=".result"></activity>
+        <activity android:name=".LecturerDashboard" />
+        <activity android:name=".StudentView" />
+        <activity android:name=".assistantview" />
+        <activity android:name=".viewusers" />
+        <activity android:name=".Studentcourseunits" />
+        <activity android:name=".registeruser" />
+        <activity android:name=".adminview" />
+        <activity android:name=".adminassitantlogin" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".resultsview" />
+        <activity android:name=".firstscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
